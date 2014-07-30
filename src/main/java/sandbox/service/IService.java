@@ -5,6 +5,6 @@ package sandbox.service;
  */
 public interface IService {
 
-    public String sayHelloTo(String name);
+    public void sayHelloTo(String name);
 
 }
