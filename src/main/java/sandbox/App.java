@@ -14,5 +14,6 @@ public class App
         IService service = new Service();
         System.out.println( "Hello World from Sandbox!" );
         service.sayHelloTo("Git");
+        System.out.println("Today is " + service.getCurrentDateTime() + "." );
     }
 }
