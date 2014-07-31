@@ -7,4 +7,6 @@ public interface IService {
 
     public void sayHelloTo(String name);
 
+    public String getCurrentDateTime();
+
 }
