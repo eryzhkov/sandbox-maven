@@ -8,8 +8,8 @@ import java.util.Date;
  */
 public class Service implements IService {
     @Override
-    public void sayHelloTo(String name) {
-        System.out.println("Hello, " + name + "!");
+    public String sayHelloTo(String name) {
+        return "Hello, " + name + "!";
     }
 
     @Override
